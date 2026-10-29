@@ -115,12 +115,15 @@ Store-Gateway# show access-lists CCTV_TRAFFIC_POLICY
 Store-Gateway# show ip interface brief
 
 ****📂 Repository Structure****
-.
-├── configs/
-│   ├── Store-SW1.cfg              # Full Cisco IOS configuration for Access Switch
-│   └── Store-Gateway.cfg          # Full Cisco IOS configuration for Edge Router
-├── docs/
-│   └── topology-diagram.png       # Network topology diagram screenshot
-├── packet-tracer/
-│   └── Boutique_Retail_Store.pkt  # Cisco Packet Tracer lab file
-└── README.md                      # Comprehensive project documentation
+### 📂 Directory & File Structure
+
+| Icon | Directory / File | Description |
+| :---: | :--- | :--- |
+| 📁 | `configs/` | Router aur Switch ki configuration files ka folder |
+| 📄 | ├── `Store-SW1.cfg` | Access Switch ki mukammal Cisco IOS configuration |
+| 📄 | └── `Store-Gateway.cfg` | Edge Router ki mukammal Cisco IOS configuration |
+| 📁 | `docs/` | Documentation aur visual images ka folder |
+| 🖼️ | └── `topology-diagram.png` | Network topology diagram ka screenshot / image |
+| 📁 | `packet-tracer/` | Cisco Packet Tracer ki actual files |
+| 🎮 | └── `Boutique_Retail_Store.pkt` | Interactive Cisco Packet Tracer lab file |
+| 📝 | `README.md` | Project ki mukammal documentation aur setup guide |
